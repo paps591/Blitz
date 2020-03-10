@@ -1,0 +1,106 @@
+.blg{
+    margin: 6rem 0;
+}
+
+.blogpart-top__title{
+    font-size: 2.4rem;
+}
+
+.blogpart-top__intro{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #a5a5a5;
+}
+
+.blogpart-top__imgdivide{
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.blog{
+    margin: 4rem 0;
+}
+
+.blog-title{
+    font-size: 1.5rem;
+}
+
+.blog-img{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.blog-details__info-date,
+.blog-details__info-tag,
+.blog-details__info-comment{
+    margin: 2rem 0;
+}
+
+.blog-details__info-date--year,
+.blog-details__info-tag--sub,
+.blog-details__info-comment--no{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.2rem;
+    color: #a5a5a5;
+}
+
+.blog-details__desc{
+    margin: 2rem 0;
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.2rem;
+}
+
+/* SIDE BAR */
+.sidebar{
+    background-color: white;
+}
+
+.sidebar-about__title,
+.sidebar-category__title,
+.sidebar-tweet__title{
+    margin-top: 4rem;
+}
+
+.sidebar__imgdivide{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar-about__desc,
+.sidebar-cat__link{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.2rem;
+}
+
+.sidebar-cat{
+    list-style: none;
+}
+
+.sidebar-cat__item{
+    margin-bottom: 1.5rem;
+}
+
+.sidebar-cat__link,
+.sidebar-cat__link:active,
+.sidebar-cat__link:hover{
+    text-decoration: none;
+    color: #474747;
+    padding: 0.5rem 1rem;
+    padding-left: 0;
+}
+
+.sidebar-tweet__desc{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar-tweet__time{
+    margin-top: -0.5rem;
+}
+
+.tweet-name{
+    color: #a5a5a5;
+}

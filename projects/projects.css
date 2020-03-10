@@ -1,0 +1,145 @@
+
+.proj{
+    margin: 6rem 0;
+}
+
+.project-top__title{
+    font-size: 2.4rem;
+}
+
+.project-top__intro{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #a5a5a5;
+}
+
+.project-top__imgdivide{
+    margin: 1rem 0;
+    width: 100%;
+}
+
+.custom-button{
+    margin: 2rem 0;
+}
+
+.custom-button__project{
+    text-decoration: none;
+    color: #474747;
+    padding: 0.5rem 1rem;
+    font-size: 1.7rem;
+    border-right: 1px solid #474747;
+}
+
+.custom-button__project:last-child{
+    border-right: transparent;
+}
+
+.custom-button__project:active,
+.custom-button__project:hover{
+    text-decoration: none;
+    color: #a5a5a5;
+}
+
+.custom-carousel{
+    margin: 3rem 0;
+}
+
+.custom-card{
+    margin: 1.5rem;
+    margin-left: 0;
+    border: none;
+}
+
+.custom-card__title{
+    font-size: 1.6rem;
+}
+
+.custom-card__subtitle{
+    font-size: 1.2rem;
+    color: #a5a5a5;
+}
+
+.custom-card__desc{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.2rem;
+}
+
+/* SIDE BAR */
+.sidebar{
+    background-color: white;
+}
+
+.sidebar-about__title,
+.sidebar-category__title,
+.sidebar-tweet__title{
+    margin-top: 4rem;
+}
+
+.sidebar__imgdivide{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar-about__desc,
+.sidebar-cat__link{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.2rem;
+}
+
+.sidebar-cat{
+    list-style: none;
+}
+
+.sidebar-cat__item{
+    margin-bottom: 1.5rem;
+}
+
+.sidebar-cat__link,
+.sidebar-cat__link:active,
+.sidebar-cat__link:hover{
+    text-decoration: none;
+    color: #474747;
+    padding: 0.5rem 1rem;
+    padding-left: 0;
+}
+
+.sidebar-tweet__desc{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar-tweet__time{
+    margin-top: -0.5rem;
+}
+
+.tweet-name{
+    color: #a5a5a5;
+}
+
+/* MOBILE DESIGN */
+@media (min-width: 35rem){
+    .custom-card{
+        width: 100%;
+    }
+}
+
+@media (min-width: 45rem){
+    .custom-card{
+        width: 65.5%;
+    }
+}
+
+@media (min-width: 55rem){
+    .custom-card{
+        width: 47.5%;
+    }
+}
+
+@media (min-width: 75rem){
+    .custom-card{
+        width: 31.5%;
+    }
+}

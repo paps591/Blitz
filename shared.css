@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "HelveticaNeue";
+    src: url("fonts/helveticaneue-thin.otf") format("opentype");
+}
+
+@font-face{
+    font-family: "bebas";
+    src: url("fonts/bebasneue-regular.ttf") format("truetype");
+}
+
+@font-face{
+    font-family: "Pacifico";
+    src: url("fonts/pacifico-regular.ttf")  format("truetype");
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "bebas",sans-serif;
+    color: #474747;
+}
+
+/* HEADER NAVIGATION*/
+.main-nav__brand{
+    font-family: "Pacifico", sans-serif;
+    font-size: 4.2rem;
+}
+
+.main-nav__item{
+    color: #474747;
+    font-size: 2rem;
+    margin-left: 2.5rem;
+}
+
+.block{
+    display: block;
+}
+
+.cust-size{
+    color: #a5a5a5;
+    font-size: 1.2rem;
+    padding-left: 1px;
+}
+
+/* FOOTER */
+footer{
+    border-top: 2px dotted #ccc;
+    margin-top: 6rem;
+    padding: 2.5rem 0;
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.4rem;
+    color: #9a9a9a;
+}
+
+.color-change{
+    color: #474747;
+}

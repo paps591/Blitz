@@ -1,0 +1,94 @@
+
+.about-top{
+    margin-top: 5.5rem;
+}
+
+.about-top__title{
+    font-size: 2.5rem;
+}
+
+.about-top__intro{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.about-top__imgdivide{
+    width: 100%;
+}
+
+.about-desc{
+    margin: 4rem 0;
+}
+
+.about-desc__title{
+    font-size: 1.8rem;
+}
+
+.about-desc__detail{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.2rem;
+    color: #a5a5a5;
+}
+.para2{
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 1.2rem;
+    color: #474747;
+}
+
+.about-us{
+    border: 1px solid #a5a5a5;
+    font-size: 1.2rem;
+    margin: 5rem 1.5rem 8rem;
+}
+
+.about-us__img{
+    width: 100%;
+}
+
+.about-us__details--info-name{
+    font-size: 1.8rem;
+}
+
+.about-us__details--info-desig{
+    color: #a5a5a5;
+}
+
+.about-us__details--id{
+    font-size: 1.5rem;
+}
+
+.about-us__desc{
+    font-family: "HelveticaNeue", sans-serif;
+}
+
+.about-us__details,
+.about-us__desc{
+    padding: 1.5rem;
+}
+
+
+/* MOBILE Design*/
+@media (min-width: 35rem){
+    .about-us{
+        width: 100%;
+    }
+}
+@media (min-width: 45rem){
+    .about-us{
+        width: 70%;
+    }
+}
+
+@media (min-width: 55rem){
+    .about-us{
+        width: 45.6%;
+    }
+}
+
+@media (min-width: 75rem){
+    .about-us{
+        width: 30.6%;
+    }
+}
+
